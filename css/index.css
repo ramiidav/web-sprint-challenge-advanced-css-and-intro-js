@@ -137,12 +137,21 @@ button:hover{
 
 @media (max-width:500px){
     body {
-        background: lightcoral;
     }
     nav {
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 2%;
-        margin: auto;
+        width: 60%;
+    }
+    .artists-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+    
+    .artist{
+        width:70%;
+    }
+    .artist img{
+        width:100%;
     }
 }
