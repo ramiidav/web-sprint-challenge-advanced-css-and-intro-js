@@ -141,8 +141,8 @@ button:hover{
     }
     nav {
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-evenly;
         padding: 2%;
+        margin: auto;
     }
 }
