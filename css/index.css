@@ -136,8 +136,11 @@ button:hover{
 }
 
 @media (max-width:500px){
+    body {
+        background: lightcoral;
+    }
     nav {
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 2%;
